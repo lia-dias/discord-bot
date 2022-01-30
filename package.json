@@ -1,0 +1,26 @@
+{
+  "name": "namasbot",
+  "version": "0.1.0",
+  "description": "Discord Bot",
+  "main": "server.js",
+  "author": "Lia Dias",
+  "license": "MIT",
+  "scripts": {
+    "install-dependencies": "yarn install --ignore-engines --no-lockfile",
+    "push-commands-global": "node src/commands/config/commands-global.js",
+    "push-commands": "node src/commands/config/commands.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "node": "^16.13.2"
+  }
+}
