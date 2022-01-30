@@ -1,0 +1,59 @@
+[
+    {
+        "nome": "Dicas",
+        "descricao": "Dicas dos comandos do bot!",
+        "online": false
+    },
+    {
+        "nome": "Ping",
+        "descricao": "Responde com Ping!",
+        "online": true
+    },
+    {
+        "nome": "Avatar",
+        "descricao": "Exibe o avatar do usuário!",
+        "subcomandos": [
+            {
+                "nome": "Global",
+                "descricao": "Exibe o avatar global de um usuário",
+                "opcoes": [
+                    {
+                        "nome": "Usuário",
+                        "descricao": "Determina o usuário que o avatar será exibido!",
+                        "tipo": "User"
+                    }
+                ]
+            },
+            {
+                "nome": "local",
+                "descricao": "Exibe o avatar local de um usuário",
+                "opcoes": [
+                    {
+                        "nome": "Usuário",
+                        "descricao": "Determina o usuário que o avatar será exibido!",
+                        "tipo": "User"
+                    }
+                ]
+            }
+        ],
+        "online": true
+    },
+    {
+        "nome": "Emoji",
+        "descricao": "Envia um emoji selecionado!",
+        "opcoes": [
+            {
+                "nome": "emoji",
+                "descricao": "Emoji a ser enviado!",
+                "tipo": "String",
+                "obrigatorio": true
+            }
+        ],
+        "online": false
+    },
+    {
+        "nome": "Descrição de Pokémon",
+        "descricao": "Exibe a descrição aleatória de um pokémon!",
+        "online": false
+    }
+]
